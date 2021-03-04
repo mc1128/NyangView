@@ -1,0 +1,22 @@
+{
+  "name": "냥뷰",
+  "description": "귀여운 고양이와 함께 새로운 탭을 사용해보세요, 간단한 TODO기능도 사용해보세요!",
+  "version": "1.1.0",
+  "permissions": ["unlimitedStorage"],
+  "manifest_version": 2,
+  "browser_action": {
+    "default_title": "냥 뷰"
+  },
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "icons": {
+    "16": "Nyan.png",
+    "128": "Nyan.png"
+  },
+  "background": {
+    "scripts": ["back/NyanView.js"],
+    "persistent": false
+  },
+  "optional_permissions": ["bookmarks", "topSites"]
+}
