@@ -9,42 +9,46 @@
   <body>
     <section class="view">
       <section class="center">
+
         <div class = "titleform">
           <form class="js-title title">
-            <input
-              class="formInput"
-              type="text"
-              placeholder= "냥 뷰"
-            />
+            <input class="formInput" type="text" placeholder= "냥 뷰"/>
           </form>
         </div>
+
         <h1 class="js-titleview titleview" id="titlechange">냥 뷰</h1>
+
         <div class="search-area">
           <div class="search-inner">
-            <input type="search" class="naver-search" placeholder="네이버 검색">
+              <form class ="js-search search">
+                <input type="search" class="naver-search" placeholder="네이버 검색">
+              </form>
+            </div>
           </div>
-        </div>
+      
         <div class="js-clock" id="textReset">
           <h1>00:00:00</h1>
         </div>
+
         <div class="former">
           <form class="js-form form" id="namedelete">
-            <input
-              class="formInput"
-              type="text"
-              placeholder="사용자이름 입력"
-            />
+            <input class="formInput" type="text" placeholder="사용자이름 입력"/>
           </form>
         </div>
+
         <h4 class="js-greetings greetings" id="namechange">반갑습니다.</h4>
+
         <div class="toDoformer">
           <form class="js-toDoForm">
             <input class="toDoInput" type="text" placeholder="해야할 일" />
           </form>
         </div>
+
         <ul class="js-toDoList"></ul>
+
       </section>
     </section>
+    
     <span class="js-weather"></span>
     <span class="imagesite">
       <a href="https://www.flaticon.com/authors/freepik" title="Freepik"
@@ -64,5 +68,6 @@
     <script src="back/todo.js"></script>
     <script src="back/bg.js"></script>
     <script src="back/weather.js"></script>
+    <script src="back/search.js"></script>
   </body>
 </html>
