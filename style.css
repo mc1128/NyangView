@@ -48,6 +48,16 @@ button:hover {
   text-align: center;
 }
 
+.toDoList {
+  overflow: scroll;
+  height: 200px;
+  -ms-overflow-style: none;
+}
+
+.toDoList::-webkit-scrollbar {
+  display: none;
+}
+
 .toDoInput,
 .formInput {
   opacity: 0.7;
